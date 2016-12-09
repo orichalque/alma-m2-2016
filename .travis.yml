@@ -14,8 +14,8 @@ script:
   - npm install -g gulp
   - npm install
   - gulp minify
-  - cd ../../../../
-  - mvn clean verify -f alma-server/pom.xml -e
+  - cd ../../../
+  - mvn clean verify -f pom.xml -e
   
 deploy:
   provider: releases
